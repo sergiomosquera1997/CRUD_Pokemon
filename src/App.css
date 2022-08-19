@@ -1,0 +1,236 @@
+.flexsearch--wrapper {
+  margin: 0;
+	height: 70px;
+	width: 400px;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+.flexsearch--input {
+ 	margin-left: 15px;
+  width: auto;
+  padding-left: 60px;
+  height: 60px;
+	border-color: #888; 
+  border-style: solid;
+	border-width: 2px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 18px;
+}
+
+.flexsearch--submit {
+  
+  position: absolute;
+	left: 10px;
+	top: 0;
+	display: block;
+	width: 60px;
+	height: 40px;
+  padding: 0;
+  border: none; 
+  margin: 0; 
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+}
+.flexsearch--submitBack {
+  
+  position: absolute;
+	left: 220px;
+	top: 5px;
+	display: block;
+	width: 60px;
+	height: 40px;
+  padding: 0;
+  border: none; 
+  margin: 0; 
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus .flexsearch--submit {
+ 	color: #333; 
+}
+.flexsearch--submitBack:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.flexsearch--submit:hover  {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+
+.buttonnew {
+  position: absolute;
+  top: 55px;
+  right: 5%;
+	width: 120px;
+	height: 55px;
+  padding: 0;
+  border: none; 
+  margin: 0;
+  border-radius: 5px;
+  padding-bottom: 5px; 
+	background: #8052f2;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+}
+.buttonnew:hover{
+  background: #A686F6;
+  color:black;
+}
+
+.buttonactions {
+  width: 50px;
+	height: 50px;
+  background-color: white;
+  padding: 0;
+  border: none; 
+  margin: 0;
+  padding-bottom: 5px;
+  color: #8052f2;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+  
+}
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  border: 2px solid #B0AFB4;
+}
+th, td {
+  border-collapse: collapse;
+  border: 2px solid #B0AFB4;
+  text-align: center;
+  width: 20%;
+}
+.FormNewPokemon {
+  margin: 5%;
+  border: 2px solid #B0AFB4;
+  height: auto;
+  width: 90%;
+  align-items: center;
+}
+.FormNewPokemon--wrapper {
+  margin: 5%;
+  border: 2px solid #B0AFB4;
+  height: auto;
+  width: 90%;
+  align-items: center;
+}
+.FormNewPokemon--grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+.FormNewPokemon--input {
+  margin-left: 15%;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 100px 200px;
+}
+.FormNewPokemon--Range {
+  margin-right: 15%;
+}
+.FormNewPokemon--Values {
+  margin-left: 15%;
+}
+.buttonnew--Save {
+ 
+	width: 180px;
+	height: 55px;
+  padding: 0;
+  border: none; 
+  margin: 10px;
+  border-radius: 5px;
+	background: #A686F6;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+}
+.buttonnew--Save:hover{
+  background: #8052f2;
+  color:black;
+}
+.buttonnew--Cancel {
+ 
+	width: 180px;
+	height: 55px;
+  padding: 0;
+  border: none; 
+  margin: 10px;
+  border-radius: 5px;
+	background: #8052f2;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  line-height: 60px;
+}
+.buttonnew--Cancel:hover{
+  background: #A686F6;
+  color:black;
+}
+.modal {
+  background-color: white;
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: auto; 
+  overflow: auto; 
+} 
+.notOpen{
+  display: none;
+  
+}
+.open {
+  display: block;
+  
+}
+.tableBusqueda {
+  align-items: 'center'; 
+  margin-top: 40px; 
+  margin-left: 5%;
+}
